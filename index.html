@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>friend finder</title>
+    <script type="text/javascript">
+      window.onscroll = function () {
+        var navbar = document.getElementById("header-container");
+
+        // If the user has scrolled down 100 pixels, show the navbar, otherwise hide it
+        if (window.pageYOffset > 400) {
+          navbar.style.top = "0px";
+        } else {
+          navbar.style.top = "-70px";
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header-container mobile-container" id="header-container">
+          <div class="logo">
+            <img src="icon/logo.png" alt="find friend logo" />
+          </div>
+          <div class="search-bar">
+            <input
+              class="search-bar-input"
+              type="text"
+              placeholder="search friend,photos and video"
+            />
+          </div>
+          <nav class="navigation-bar">
+            <div class="nav-item">Home</div>
+            <div class="nav-item">NewsFeed</div>
+            <div class="nav-item">TimeLine</div>
+            <div class="nav-item">All Pages</div>
+            <div class="nav-item">Contact</div>
+          </nav>
+        </div>
+      </header>
+      <section class="bannerForm">
+        <div class="hero"></div>
+        <div class="find-friend">
+          <div class="form-logo">
+            <img src="icon/logo.png" alt="" />
+          </div>
+          <h2 class="find-friend-child">find my friends</h2>
+          <h3 class="find-friend-child">
+            Signup now and meet awesome people around the world
+          </h3>
+          <div class="form">
+            <form class="find-friend-child sign-up-form" action="">
+              <input
+                class="find-friend-child form-item"
+                type="text"
+                placeholder="Enter Name"
+              />
+              <input
+                class="find-friend-child form-item"
+                type="text"
+                placeholder="Enter Email"
+              />
+              <input
+                class="find-friend-child form-item"
+                type="text"
+                placeholder="Enter a Password"
+              />
+              <button type="submit" class="find-friend-child sign-up-btn">
+                Sign Up
+              </button>
+              <a href="#" class="find-friend-child login-link"
+                >Already Have an account?</a
+              >
+            </form>
+          </div>
+        </div>
+      </section>
+      <main class="main-container">
+        <!-- social herd section -->
+        <section class="social">
+          <section class="social-herd">
+            <div class="down-arrow-container">
+              <i class="fa-solid fa-arrow-down"></i>
+            </div>
+            <h2>Social Herd</h2>
+            <div class="social-herd-menu">
+              <div class="items">
+                <div class="item-img">
+                  <img src="icon/Make_Friends.png" alt="" />
+                </div>
+                <h4>Make Friends</h4>
+              </div>
+              <div class="items">
+                <div class="item-img">
+                  <img src="icon/Published_Post.png" alt="" />
+                </div>
+                <h4>Published Post</h4>
+              </div>
+              <div class="items">
+                <div class="item-img">
+                  <img src="icon/Private_Chats.png" alt="" />
+                </div>
+                <h4>Private Chats</h4>
+              </div>
+              <div class="items">
+                <div class="item-img">
+                  <img src="icon/Create_Poll.png" alt="" />
+                </div>
+                <h4>Create Poll</h4>
+              </div>
+            </div>
+            <h3>find awesome people like you</h3>
+            <div class="digitCodes">
+              <div class="digits"><span>1</span></div>
+              <div class="digits"><span>0</span></div>
+              <div class="digits"><span>1</span></div>
+              <div class="digits"><span>4</span></div>
+              <div class="digits"><span>2</span></div>
+              <div class="digits"><span>4</span></div>
+            </div>
+            <h4>People Already Signed Up</h4>
+            <div class="map-img">
+              <img src="img/facemap.png" alt="map with people image" />
+            </div>
+          </section>
+        </section>
+        <!-- download section  -->
+        <section class="download-sec">
+          <h2>Download</h2>
+          <div class="market-platform">
+            <button class="app-store">
+              <img src="icon/app-store.png" alt="" />
+            </button>
+            <button class="play-store">
+              <img src="icon/google-play.png" alt="" />
+            </button>
+          </div>
+          <h3>stay connected anytime, anywhere</h3>
+          <div class="mobile-image-container">
+            <img src="img/iPhone.png" alt="" />
+          </div>
+        </section>
+
+        <!-- banner of people who using their phone -->
+        <section class="people-banner-phone">
+          <div class="people-img-container">
+            <img src="img/people.jpg" alt="people who using their phone " />
+          </div>
+        </section>
+        <!-- community section (cyrcle div with community and ...) -->
+        <section class="community-sec">
+          <div class="community-container">
+            <div class="community-item">
+              <div class="circle">
+                <i class="fa-solid fa-person c"></i>
+              </div>
+              <h3>1,01,242</h3>
+              <h4>People registered</h4>
+            </div>
+            <div class="community-item">
+              <div class="circle">
+                <i class="fa-regular fa-image c"></i>
+              </div>
+              <h3>21,01,242</h3>
+              <h4>Posts published</h4>
+            </div>
+            <div class="community-item">
+              <div class="circle">
+                <i class="fa-solid fa-check c"></i>
+              </div>
+              <h3>41,242</h3>
+              <h4>People online</h4>
+            </div>
+          </div>
+        </section>
+        <!-- live people section -->
+        <section class="live-feed-sec">
+          <h2>Live Feed</h2>
+          <div class="live-people">
+            <div class="live-person"><img src="img/user1.jpg" alt="" /></div>
+            <div class="live-person"><img src="img/user2.jpg" alt="" /></div>
+            <div class="live-person"><img src="img/user3.jpg" alt="" /></div>
+            <div class="live-person"><img src="img/user4.jpg" alt="" /></div>
+            <div class="live-person"><img src="img/user5.jpg" alt="" /></div>
+            <div class="live-person"><img src="img/user6.jpg" alt="" /></div>
+          </div>
+          <h3>see what's happening now</h3>
+          <div class="live-people-with-time">
+            <div class="online-people-row">
+              <div class="online-person">
+                <div class="profile-container">
+                  <img src="img/user7.jpg" alt="" />
+                </div>
+                <div class="desc">
+                  <p>
+                    <span class="name">Sarah</span> just posted a photo from
+                    Moscow
+                  </p>
+                  <span>20 Secs ago</span>
+                </div>
+              </div>
+              <div class="online-person">
+                <div class="profile-container">
+                  <img src="img/user8.jpg" alt="" />
+                </div>
+                <div class="desc">
+                  <p>
+                    <span class="name">Sarah</span> just posted a photo from
+                    Moscow
+                  </p>
+                  <span>20 Secs ago</span>
+                </div>
+              </div>
+            </div>
+            <div class="online-people-row">
+              <div class="online-person">
+                <div class="profile-container">
+                  <img src="img/user7.jpg" alt="" />
+                </div>
+                <div class="desc">
+                  <p>
+                    <span class="name">Sarah</span> just posted a photo from
+                    Moscow
+                  </p>
+                  <span>20 Secs ago</span>
+                </div>
+              </div>
+              <div class="online-person">
+                <div class="profile-container">
+                  <img src="img/user7.jpg" alt="" />
+                </div>
+                <div class="desc">
+                  <p>
+                    <span class="name">Sarah</span> just posted a photo from
+                    Moscow
+                  </p>
+                  <span>20 Secs ago</span>
+                </div>
+              </div>
+            </div>
+            <div class="online-people-row">
+              <div class="online-person">
+                <div class="profile-container">
+                  <img src="img/user7.jpg" alt="" />
+                </div>
+                <div class="desc">
+                  <p>
+                    <span class="name">Sarah</span> just posted a photo from
+                    Moscow
+                  </p>
+                  <span>20 Secs ago</span>
+                </div>
+              </div>
+              <div class="online-person">
+                <div class="profile-container">
+                  <img src="img/user7.jpg" alt="" />
+                </div>
+                <div class="desc">
+                  <p>
+                    <span class="name">Sarah</span> just posted a photo from
+                    Moscow
+                  </p>
+                  <span>20 Secs ago</span>
+                </div>
+              </div>
+            </div>
+            <div class="online-people-row">
+              <div class="online-person">
+                <div class="profile-container">
+                  <img src="img/user7.jpg" alt="" />
+                </div>
+                <div class="desc">
+                  <p>
+                    <span class="name">Sarah</span> just posted a photo from
+                    Moscow
+                  </p>
+                  <span>20 Secs ago</span>
+                </div>
+              </div>
+              <div class="online-person">
+                <div class="profile-container">
+                  <img src="img/user7.jpg" alt="" />
+                </div>
+                <div class="desc">
+                  <p>
+                    <span class="name">Sarah</span> just posted a photo from
+                    Moscow
+                  </p>
+                  <span>20 Secs ago</span>
+                </div>
+              </div>
+            </div>
+            <div class="online-people-row">
+              <div class="online-person">
+                <div class="profile-container">
+                  <img src="img/user7.jpg" alt="" />
+                </div>
+                <div class="desc">
+                  <p>
+                    <span class="name">Sarah</span> just posted a photo from
+                    Moscow
+                  </p>
+                  <span>20 Secs ago</span>
+                </div>
+              </div>
+              <div class="online-person">
+                <div class="profile-container">
+                  <img src="img/user7.jpg" alt="" />
+                </div>
+                <div class="desc">
+                  <p>
+                    <span class="name">Sarah</span> just posted a photo from
+                    Moscow
+                  </p>
+                  <span>20 Secs ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-container">
+          <div class="logo-social">
+            <div class="logo-container">
+              <img
+                src="icon/logo-black.png"
+                alt="logo of friend finder webpage"
+              />
+            </div>
+            <div class="social-media-links">
+              <div class="social-link">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="social-link">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="social-link">
+                <i class="fa-brands fa-facebook"></i>
+              </div>
+              <div class="social-link">
+                <i class="fa-brands fa-google-plus-g"></i>
+              </div>
+              <div class="social-link">
+                <i class="fa-brands fa-pinterest"></i>
+              </div>
+            </div>
+          </div>
+          <div class="for-individuals">
+            <p class="header-col-footer">For individuals</p>
+            <ul>
+              <li><a href="#">Signup</a></li>
+              <li><a href="#">login</a></li>
+              <li><a href="#">Explore</a></li>
+              <li><a href="#">Finder app</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Language settings</a></li>
+            </ul>
+          </div>
+          <div class="for-businesses">
+            <p class="header-col-footer">for businesses</p>
+            <ul>
+              <li><a href="#">Business signup</a></li>
+              <li><a href="#">Business login</a></li>
+              <li><a href="#">Benefits</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Advertise</a></li>
+              <li><a href="#">Setup</a></li>
+            </ul>
+          </div>
+          <div class="about">
+            <p class="header-col-footer">About</p>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+          </div>
+          <div class="contact-us">
+            <p class="header-col-footer">Contact Us</p>
+            <div class="tel">
+              <div class="icon-container">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <p class="info">+1 (234) 222 0754</p>
+            </div>
+            <div class="email">
+              <div class="icon-container">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <p class="info">info@thunder-team.com</p>
+            </div>
+            <div class="loc">
+              <div class="icon-container">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <p class="info">228 Park Ave S NY, USA</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
