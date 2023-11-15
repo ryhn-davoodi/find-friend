@@ -1,4 +1,4 @@
-# FriendFinder page
+# find friend page
 
-you can find new fried here
+a webpage about finding friend and community
 
